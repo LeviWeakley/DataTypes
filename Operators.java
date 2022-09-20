@@ -15,6 +15,10 @@ public class Operators
         i=10; 
         f+=i;
         flag = !flag;
-    
+        while (i<20){ 
+            System.out.println(i++);
+            System.out.println(f);
+            System.out.println(flag);
+        }
     }
 }
