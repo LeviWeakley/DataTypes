@@ -12,6 +12,12 @@ public class Array
         for (int i=0; i < strArray.length; i++) {
             System.out.println(strArray[i]);
         }
-
+        for(String value:strArray){
+            System.out.print(value + " ");
+        }
+        for(String value : strArray){
+            System.out.print(value + "-");
+        }
     }
 }
+
