@@ -15,6 +15,7 @@ public class Array
         for(String value:strArray){
             System.out.print(value + " ");
         }
+        System.out.println(" ");
         for(String value : strArray){
             System.out.print(value + "-");
         }
